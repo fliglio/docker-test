@@ -7,8 +7,8 @@ server {
 
   index         index.html index.htm index.php;
 
-  access_log    /var/log/nginx/localhost.com-access.log;
-  error_log     /var/log/nginx/localhost.com-error.log error;
+  access_log    /var/log/nginx/access.log;
+  error_log     /var/log/nginx/error.log error;
 
   charset       utf-8;
 
